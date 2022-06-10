@@ -1,0 +1,30 @@
+.show-header{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.toFroBtn{
+    font-size: 4rem;
+    padding: 0em 0.4em;
+    background-color: transparent;
+    border:none;
+    color:silver;
+    margin-right: 10px;
+}
+.toFroBtn:hover{
+    cursor: pointer;
+    background-color: white;
+
+}
+@media (max-width:500px){
+    .show-page{
+        margin-top: -2em;
+    }
+    .show-header{
+         font-size: 3rem;
+      }
+}

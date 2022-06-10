@@ -1,0 +1,23 @@
+.trending-blur{
+    filter: blur(2px);
+}
+.trending-title{
+  text-align: center;
+   font-size: 4.5rem;
+}
+
+.trending-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+@media (max-width:500px){
+    .trending{
+        margin-top: -2em;
+    }
+    .trending-title{
+         font-size: 3rem;
+      }
+}

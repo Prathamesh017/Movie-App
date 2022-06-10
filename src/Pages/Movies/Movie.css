@@ -1,0 +1,13 @@
+.movie-header{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+@media (max-width:500px){
+    .movie-page{
+        margin-top: -2em;
+    }
+    .movie-header{
+         font-size: 3rem;
+      }
+}

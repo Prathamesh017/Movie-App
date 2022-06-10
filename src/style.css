@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+}
+
+.app{
+    min-height: 100vh;
+    background-color: #39445a;
+    color:white;
+    padding-top:10em;
+    
+}
+.app-filter{
+    min-height: 100vh;
+    background-color: #39445a;
+    color:white;
+    padding-top:10em;
+    filter: blur(2px);
+}
